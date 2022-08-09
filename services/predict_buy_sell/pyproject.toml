@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "predict_buy_sell"
+version = "0.1.6"
+description = ""
+authors = ["ja185332 <ja185332.ncr.com>"]
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+pandas = "^1.4"
+pandas_datareader = "^0.10"
+scipy = "^1.8.1"
+sklearn = "^0.0"
+finnhub_data = {path = "../../services/finnhub_data"}
+sentiment = {path = "../../services/sentiment"}
+finnhub-python = "^2.4.13"
+textblob = "^0.17.1"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

@@ -1,0 +1,20 @@
+[[package]]
+name = "predict-buy-sell"
+version = "0.1.0"
+description = ""
+category = "main"
+optional = false
+python-versions = "^3.8"
+develop = false
+
+[package.source]
+type = "directory"
+url = "../services/predict_buy_sell"
+
+[metadata]
+lock-version = "1.1"
+python-versions = "^3.8"
+content-hash = "df35c80336b14cc7f32d88e62ad540044daffffdef6d69aa403fe97ae6409665"
+
+[metadata.files]
+predict-buy-sell = []

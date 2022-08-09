@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "twitter_data"
+version = "0.1.0"
+description = ""
+authors = ["ja185332 <ja185332.ncr.com>"]
+
+[tool.poetry.dependencies]
+requests = "^2.28"
+python = ">=3.8,<3.11"
+scipy = "^1.8.1"
+textblob = "^0.17.1"
+pandas = "^1.4.3"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
